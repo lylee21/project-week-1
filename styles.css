@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    padding-left: 50vh; 
+    padding-top: 5%;
+    text-align: center; 
+    place-items: center;
+}

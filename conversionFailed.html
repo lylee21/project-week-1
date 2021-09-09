@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+    <title>Project Week 1 - Timezone Converter</title>
+  </head>
+  <body>
+    <div>
+      <p>Converted Time</p>
+      <h1 id="selectedTime"></h1>
+      <h1 id="convertedTime"></h1>
+      
+      <script>
+        function localTime(){
+          document.getElementById("selectedTime").innerHTML = `${hours}:${minutes}${cycle}`; 
+        }
+        localTime();
+        //document.getElementById("selectedTimeZone").innerHTML = ;
+        //document.getElementById("convertedTimeZone").innerHTML = ;
+        //document.getElementById("displayConversion").innerHTML = ;
+        //console.log(`Converted from ${document.getElementById("inputTime").value} ${selectedTimeZone} to ${convertedTimeZone}`);
+      </script>
+
+      <form action="./index.html">
+        <input type="submit" id = convert value="Convert Another" />
+      </form>
+      <!-- <input type="text" id="currentTime"> -->
+    </div>
+  </body>
+</html>
